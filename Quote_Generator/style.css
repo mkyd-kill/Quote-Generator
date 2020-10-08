@@ -1,0 +1,99 @@
+body {
+    width: auto;
+    height: 660px;
+    background-color: grey;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 750px;
+    height: 275px;
+    background-color: rgba(20, 188, 255, 0.9);
+    text-align: center;
+    margin: 0% auto;
+    border: 5px solid rgb(12, 50, 15, .5);
+    margin-top: 250px !important;
+    border-radius: 20px;
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    background-color: burlywood;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn:hover {
+    color: darkorange;
+    background-color: cornflowerblue;
+}
+
+#output {
+    color: white;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        display: flex;
+        background-color: wheat;
+        width: auto;
+        height: 650px auto;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgba(20, 188, 255, 0.9);
+        width: 500px auto;
+        height: 380px auto;
+        margin: 0% auto;
+        margin-top: 150px !important;
+    }
+
+    #btn {
+        margin: 25px auto;
+        width: 200px;
+    }
+
+    #output {
+        margin-top: 20px !important;
+        padding: .09in;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        display: flex;
+        background-color: wheat;
+        width: auto;
+        height: 500px auto;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgba(20, 188, 255, 0.9);
+        width: 500px auto;
+        height: 380px auto;
+        margin: 0% auto;
+        margin-top: 150px !important;
+    }
+
+    #btn {
+        margin: 25px auto;
+        width: 200px;
+    }
+
+    #output {
+        margin-top: 20px !important;
+        padding: .09in;
+    }
+}
